@@ -9,10 +9,10 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         XeroxScheduler scheduler = new XeroxScheduler();
-        scheduler.addShop(1, "Shop 1", 20);
-        scheduler.addShop(2, "Shop 2", 15);
-        scheduler.addShop(3, "Shop 3", 25);
-        scheduler.addShop(4, "Shop 4", 5);
+        scheduler.addShop(1, "Shop 1", 20); // 20 pages per minute
+        scheduler.addShop(2, "Shop 2", 15); // 15 pages per minute
+        scheduler.addShop(3, "Shop 3", 25); // 25 pages per minute
+        scheduler.addShop(4, "Shop 4", 5); // 5 pages per minute
 
         List<Customer> customers = Arrays.asList(
                 new Customer(1, 50, 1), // 50 pages, normal priority
@@ -22,8 +22,8 @@ public class Main {
                 new Customer(5, 20, 1)  // 20 pages, normal priority
         );
 
-        System.out.println("Testing FCFS Scheduling:");
-        scheduler.setAlgorithm(SchedulingAlgorithm.FCFS);
+        System.out.println("Testing SJF Scheduling:");
+        scheduler.setAlgorithm(SchedulingAlgorithm.SJF);
         customers.forEach(scheduler::addCustomer);
 
         // Print status for each shop

@@ -1,0 +1,88 @@
+Using FCFS Scheduling:
+
+    Shop: Shop 1
+    Queue length: 2
+    Queue: [Customer1(pages=50, priority=1), Customer5(pages=20, priority=1)]
+    Estimated wait time: 3.50 minutes
+
+    Shop: Shop 2
+    Queue length: 1
+    Queue: [Customer2(pages=10, priority=0)]
+    Estimated wait time: 0.67 minutes
+
+    Shop: Shop 3
+    Queue length: 1
+    Queue: [Customer3(pages=30, priority=1)]
+    Estimated wait time: 1.20 minutes
+
+    Shop: Shop 4
+    Queue length: 1
+    Queue: [Customer4(pages=5, priority=0)]
+    Estimated wait time: 1.00 minutes
+
+
+Using SJF Scheduling:
+
+    Shop: Shop 1
+    Queue length: 1
+    Queue: [Customer1(pages=50, priority=1)]
+    Estimated wait time: 2.50 minutes
+
+    Shop: Shop 2
+    Queue length: 2
+    Queue: [Customer2(pages=10, priority=0), Customer5(pages=20, priority=1)]
+    Estimated wait time: 2.00 minutes
+
+    Shop: Shop 3
+    Queue length: 1
+    Queue: [Customer3(pages=30, priority=1)]
+    Estimated wait time: 1.20 minutes
+
+    Shop: Shop 4
+    Queue length: 1
+    Queue: [Customer4(pages=5, priority=0)]
+    Estimated wait time: 1.00 minutes
+
+Using Priority Scheduling:
+
+    Shop: Shop 1
+    Queue length: 2
+    Queue: [Customer1(pages=50, priority=1), Customer2(pages=10, priority=0)]
+    Estimated wait time: 3.00 minutes
+
+    Shop: Shop 2
+    Queue length: 2
+    Queue: [Customer3(pages=30, priority=1), Customer4(pages=5, priority=0)]
+    Estimated wait time: 2.33 minutes
+
+    Shop: Shop 3
+    Queue length: 1
+    Queue: [Customer5(pages=20, priority=1)]
+    Estimated wait time: 0.80 minutes
+
+    Shop: Shop 4
+    Queue length: 0
+    Queue: []
+    Estimated wait time: 0.00 minutes
+
+Using RR Scheduling:
+
+    Shop: Shop 1
+    Queue length: 2
+    Queue: [Customer1(pages=50, priority=1), Customer5(pages=20, priority=1)]
+    Estimated wait time: 3.50 minutes
+
+    Shop: Shop 2
+    Queue length: 1
+    Queue: [Customer2(pages=10, priority=0)]
+    Estimated wait time: 0.67 minutes
+
+    Shop: Shop 3
+    Queue length: 1
+    Queue: [Customer3(pages=30, priority=1)]
+    Estimated wait time: 1.20 minutes
+
+    Shop: Shop 4
+    Queue length: 1
+    Queue: [Customer4(pages=5, priority=0)]
+    Estimated wait time: 1.00 minutes
